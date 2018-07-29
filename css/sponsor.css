@@ -6,12 +6,9 @@
 
 body {
   text-align: center;
-  height: 100%;
+  overflow: scroll;
 }
 @media all and (min-width: 1215px){
-body,html{
-  overflow: hidden;
-}
 }
 @font-face{
 	font-family:Equinox;
