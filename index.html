@@ -93,12 +93,12 @@
   </head>
 
   <body>
-    <div class="preload">
+<!--     <div class="preload">
       <div class="container heading">
       <h1 style="color: #0ff;"> THE BEST ACM STUDENT CHAPTER IN INDIA PRESENTS...</h1>
       </div>
     </div>
-    <div class="main">
+ -->    <div class="main">
       <center><h1 id="heading" >PULZION'18</h1></center>
 
       <div id="myNav" class="overlay">
@@ -319,11 +319,13 @@
     <script src="js/home.js"></script>
 
     <script>
-      setTimeout(function(){        
-      $('.preload').fadeOut();
-      $('.main').delay(150); 
-      // document.body.style.background = "url(img/1.jpg)";
-      },3200);
+        $(function(){ // this replaces document.ready
+          setTimeout(function(){
+              $('.preload').fadeOut();
+              $('.main').delay(150); 
+              // document.body.style.background = "url(img/1.jpg)";
+              },3200);
+        });
     </script>
     <script>
     function openNav() {
