@@ -5,9 +5,8 @@
 }
 
 body {
-  color: #ffffff;
-  background: #222222;
   text-align: center;
+  height: 100%;
 }
 @media all and (min-width: 1215px){
 body,html{
