@@ -5,8 +5,8 @@
 }
 
 body {
+  height: 100%;
   text-align: center;
-  overflow: scroll;
 }
 @media all and (min-width: 1215px){
 }
