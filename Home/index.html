@@ -93,7 +93,7 @@
   </head>
 
   <body>
-    <div class="preload">
+    <div id="preload">
       <div class="container heading">
       <h1 style="color: #0ff;"> THE BEST ACM STUDENT CHAPTER IN INDIA PRESENTS...</h1>
       </div>
@@ -320,11 +320,16 @@
     <script src="js/home.js"></script>
 
     <script>
-      setTimeout(function(){
+        $(window).ready(function() 
+        {
+            $('#preload').hide();
+        });
+
+      /*setTimeout(function(){
           $('.preload').fadeOut();
           $('.main').delay(150); 
           // document.body.style.background = "url(img/1.jpg)";
-          },3200);
+          },3200);*/
     </script>
     <script>
     function openNav() {
