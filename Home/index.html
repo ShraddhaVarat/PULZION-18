@@ -320,10 +320,13 @@
     <script src="js/home.js"></script>
 
     <script>
-        $(window).ready(function() 
+        $(window).load(function() {
+         $('#preload').addClass('main');
+        });
+       /* $(window).ready(function() 
         {
             $('#preload').hide();
-        });
+        });*/
 
       /*setTimeout(function(){
           $('.preload').fadeOut();
