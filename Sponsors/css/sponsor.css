@@ -87,6 +87,7 @@ p
   margin-bottom: 1em;
   width: 400px;
 }
+
 .flip > .front,
 .flip > .back {
   display: block;
@@ -98,6 +99,7 @@ p
   height: 220px;
   padding: 1em 2em;
   background: #646c72;
+  
   border-radius: 10px;
 }
 .flip > .front p,
